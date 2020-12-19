@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/Button';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Alert} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 
@@ -48,6 +47,12 @@ function App() {
   return (
     <Container>
       <Page page={pages[currentPage]} updatePage={updatePage}/>
+      <Row>
+        <Col width="12">
+          <Peek text = "This is where some extra info would go about any of the scientific concepts visible on the page."/>
+        </Col>
+        
+      </Row>
     </Container>
   );
 }
@@ -88,6 +93,39 @@ function Page(props) {
 
     </Col>
     
+  )
+}
+
+function Peek(props) {
+  const [isVisible, setIsVisible] = useState(false);
+  
+  if (isVisible) return (
+    <Alert variant="info">
+      <h2 onClick = {() => {
+      setIsVisible(false)
+      }}>
+        💡
+      </h2>
+      <p>
+        {props.text}
+      </p>
+    </Alert>
+  )
+
+  return(
+    
+    <div onClick = {() => {
+      setIsVisible(true)
+    }}>
+      <h2>
+      💡
+      </h2>
+      <p>
+        Click the lightbulb for more
+      </p>
+    </div>
+
+
   )
 }
 
