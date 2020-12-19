@@ -23,7 +23,7 @@ const pages = [
 
   {
     title : "Second page!",
-    details : "Details for each page of the game will go here!",
+    details : "More details for each page of the game will go here!",
     options:[
       {
         text:"Potential next step 1",
