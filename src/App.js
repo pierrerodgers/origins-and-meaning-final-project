@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from 'react-bootstrap/Button';
+import {Container, Row, Col} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Page title = "Welcome to the Choose your own Adventure game!" details = "Details for each page of the game will go here!" options = {["Potential next step", "Potential next step"]}/>
+    <Container>
+      <Page title = "Welcome to the Choose your own Adventure game!" details = "Details for each page of the game will go here!" options = {["Potential next step", "Potential next step"]}/>
+    </Container>
   );
 }
 
@@ -16,23 +21,29 @@ function Page(props) {
   */
   
   return (
-    <div>
-      <h1>
-        {props.title}
-      </h1>
-
-      <p>
-        {props.details}
-      </p>
-
-      <div>
+    <Col>
+      <Row>
+        <h1>
+          {props.title}
+        </h1>
+      </Row>
+      <Row>
+        <p>
+          {props.details}
+        </p>
+      </Row>
+      <Row>
         {props.options.map((option) => {
-          return(<p key={option}>
-            {option}
-          </p>)
-        })}
-      </div>
-    </div>
+            return(
+            <Col>
+              <Button variant = "primary" key={option}>
+                {option}
+              </Button>
+            </Col>)
+          })}
+      </Row>
+    </Col>
+    
   )
 }
 
