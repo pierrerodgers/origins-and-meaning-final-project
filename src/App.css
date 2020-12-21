@@ -11,6 +11,15 @@
   margin:10px;
 }
 
+div {
+  padding:10px;
+}
+
+.gifDiv {
+  margin:auto;
+  width:80%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
