@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/origins-and-meaning-final-project/static/css/main.72d1951f.chunk.css",
-    "main.js": "/origins-and-meaning-final-project/static/js/main.772e9c74.chunk.js",
-    "main.js.map": "/origins-and-meaning-final-project/static/js/main.772e9c74.chunk.js.map",
-    "runtime-main.js": "/origins-and-meaning-final-project/static/js/runtime-main.14b823c0.js",
-    "runtime-main.js.map": "/origins-and-meaning-final-project/static/js/runtime-main.14b823c0.js.map",
+    "main.css": "/origins-and-meaning-final-project/static/css/main.6ea303a4.chunk.css",
+    "main.js": "/origins-and-meaning-final-project/static/js/main.b5ead357.chunk.js",
+    "main.js.map": "/origins-and-meaning-final-project/static/js/main.b5ead357.chunk.js.map",
+    "runtime-main.js": "/origins-and-meaning-final-project/static/js/runtime-main.09205050.js",
+    "runtime-main.js.map": "/origins-and-meaning-final-project/static/js/runtime-main.09205050.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/origins-and-meaning-final-project/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.ea5fe67b.chunk.js": "/origins-and-meaning-final-project/static/js/2.ea5fe67b.chunk.js",
-    "static/js/2.ea5fe67b.chunk.js.map": "/origins-and-meaning-final-project/static/js/2.ea5fe67b.chunk.js.map",
-    "static/js/3.6e0d55b6.chunk.js": "/origins-and-meaning-final-project/static/js/3.6e0d55b6.chunk.js",
-    "static/js/3.6e0d55b6.chunk.js.map": "/origins-and-meaning-final-project/static/js/3.6e0d55b6.chunk.js.map",
+    "static/js/2.5ceacb1c.chunk.js": "/origins-and-meaning-final-project/static/js/2.5ceacb1c.chunk.js",
+    "static/js/2.5ceacb1c.chunk.js.map": "/origins-and-meaning-final-project/static/js/2.5ceacb1c.chunk.js.map",
+    "static/js/3.0c9447ff.chunk.js": "/origins-and-meaning-final-project/static/js/3.0c9447ff.chunk.js",
+    "static/js/3.0c9447ff.chunk.js.map": "/origins-and-meaning-final-project/static/js/3.0c9447ff.chunk.js.map",
     "index.html": "/origins-and-meaning-final-project/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/origins-and-meaning-final-project/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.72d1951f.chunk.css.map": "/origins-and-meaning-final-project/static/css/main.72d1951f.chunk.css.map",
-    "static/js/2.ea5fe67b.chunk.js.LICENSE.txt": "/origins-and-meaning-final-project/static/js/2.ea5fe67b.chunk.js.LICENSE.txt"
+    "static/css/main.6ea303a4.chunk.css.map": "/origins-and-meaning-final-project/static/css/main.6ea303a4.chunk.css.map",
+    "static/js/2.5ceacb1c.chunk.js.LICENSE.txt": "/origins-and-meaning-final-project/static/js/2.5ceacb1c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.14b823c0.js",
+    "static/js/runtime-main.09205050.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.ea5fe67b.chunk.js",
-    "static/css/main.72d1951f.chunk.css",
-    "static/js/main.772e9c74.chunk.js"
+    "static/js/2.5ceacb1c.chunk.js",
+    "static/css/main.6ea303a4.chunk.css",
+    "static/js/main.b5ead357.chunk.js"
   ]
 }
