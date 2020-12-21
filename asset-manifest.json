@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/origins-and-meaning-final-project/static/css/main.6ea303a4.chunk.css",
-    "main.js": "/origins-and-meaning-final-project/static/js/main.b5ead357.chunk.js",
-    "main.js.map": "/origins-and-meaning-final-project/static/js/main.b5ead357.chunk.js.map",
+    "main.js": "/origins-and-meaning-final-project/static/js/main.8bff1a88.chunk.js",
+    "main.js.map": "/origins-and-meaning-final-project/static/js/main.8bff1a88.chunk.js.map",
     "runtime-main.js": "/origins-and-meaning-final-project/static/js/runtime-main.09205050.js",
     "runtime-main.js.map": "/origins-and-meaning-final-project/static/js/runtime-main.09205050.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/origins-and-meaning-final-project/static/css/2.20aa2d7b.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.5ceacb1c.chunk.js",
     "static/css/main.6ea303a4.chunk.css",
-    "static/js/main.b5ead357.chunk.js"
+    "static/js/main.8bff1a88.chunk.js"
   ]
 }
